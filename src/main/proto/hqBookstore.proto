@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "br.edu.bookstore";
+option java_outer_classname = "HqBookstore";
+option objc_class_prefix = "HLW";
+
+package br.edu.bookstore;
+
+service HqBookstoreService {
+  rpc send (HqBookstoreRequest) returns (HqBookstoreReply) {}
+}
+
+message HqBookstoreRequest {
+  string name = 1;
+}
+
+message HqBookstoreReply {
+  string message = 1;
+}

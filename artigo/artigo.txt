@@ -1,0 +1,7 @@
+# Links
+
+https://converter.swagger.io/
+
+http://gateway.marvel.com/docs/public
+
+https://converter.swagger.io/api/convert?url=http%3A%2F%2Fgateway.marvel.com%2Fdocs%2Fpublic
